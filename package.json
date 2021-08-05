@@ -1,0 +1,27 @@
+{
+  "name": "valorantbot",
+  "version": "1.0.0",
+  "description": "Multi-language bot providing latest information about Valorant Agents, Servers, and much more.",
+  "main": "Valorant.js",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js": "^13.0.0-dev.t1628165339.3eb4140",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.5",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KSJaay/ValorantBot.git"
+  },
+  "author": "KSJaay",
+  "license": "GNU General Public License v3.0",
+  "bugs": {
+    "url": "https://github.com/KSJaay/ValorantBot/issues"
+  },
+  "homepage": "https://github.com/KSJaay/ValorantBot#readme"
+}
