@@ -35,8 +35,6 @@ module.exports = {
         if(!agents[args[0].toLowerCase()]) return client.embed.usage(message, data);
         let agent = await fetch(`https://valorant-api.com/v1/agents/${agents[args[0].toLowerCase()]}`).then(x => x.json()).catch(err => console.log(err));
         if(!agent || agent.status !== 200) return message.channel.send("Issue fetching information about agent.")
-        console.log(agent);
-        console.log(agent.data.abilities);
         let abilities = agent.data.abilities.map(x => {
             return {name: x.displayName, value: x.description, inline: true};
         })
