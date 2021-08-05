@@ -1,0 +1,7 @@
+{
+    "token": "Tokens",
+    "mongoURI": "mongodb://localhost:27017/Valorant",
+    "color": "#fa4454",
+    "footer": "KSJaay#2487",
+    "prefix": "a!"
+}
